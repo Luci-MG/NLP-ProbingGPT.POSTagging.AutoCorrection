@@ -8,7 +8,7 @@ This script is to train three RNN models
     3. BI Directional LSTM
 for POS tagging and check their perfomences
 
-Usage: python3 bonus_q_1.py data/ptb.2-21.tgs data/ptb.2-21.txt data/ptb.22.tgs data/ptb.22.txt 22_1.out
+Usage: python3 vrnn_lstm_bidlstm.py data/ptb.2-21.tgs data/ptb.2-21.txt data/ptb.22.tgs data/ptb.22.txt 22_1.out
 You need to give train tags then train texts
 then test tags and then test texts as args
 
