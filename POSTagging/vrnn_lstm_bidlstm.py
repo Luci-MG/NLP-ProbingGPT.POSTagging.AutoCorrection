@@ -1,8 +1,6 @@
 #!/usr/bin/python
 
 """
-Anusha Lavanuru
-11/23/05
 
 This script is to train three RNN models 
     1. VanillaRNN
