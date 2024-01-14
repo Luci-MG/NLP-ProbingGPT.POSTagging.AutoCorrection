@@ -13,9 +13,7 @@ This repository contains three sub-projects focused on Natural Language Processi
 3. [Autocorrection](#autocorrection)
     - [Overview](#overview-2)
     - [How to Run and Perfomance check](#how-to-run-and-perfomance-check)
-4. [License](#license)
-5. [Acknowledgements](#acknowledgements)
-6. [Contributing](#contributing)
+4. [Contributing](#contributing)
 
 ## ProbingGPT
 
