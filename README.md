@@ -8,12 +8,11 @@ This repository contains three sub-projects focused on Natural Language Processi
     - [How to Run Results and Evaluation](#how-to-run-results-and-evaluation)
 2. [Postagging](#postagging)
     - [Overview](#overview-1)
-    - [How to Run](#how-to-run-1)
+    - [How to Run and Evaluation](#how-to-run-and-evaluation)
     - [Results and Evaluation](#postagging-results-and-evaluation)
 3. [Autocorrection](#autocorrection)
     - [Overview](#overview-2)
-    - [How to Run](#how-to-run-2)
-    - [Results and Evaluation](#autocorrection-results-and-evaluation)
+    - [How to Run and Perfomance check](#how-to-run-and-perfomance-check)
 4. [License](#license)
 5. [Acknowledgements](#acknowledgements)
 6. [Contributing](#contributing)
@@ -24,7 +23,6 @@ This repository contains three sub-projects focused on Natural Language Processi
 The ProbingGPT project, inspired by the methodology outlined in the [paper](https://arxiv.org/abs/1610.01644), utilizes the [Baukit](https://github.com/davidbau/baukit) library to probe the [GPT-2](https://huggingface.co/docs/transformers/v4.35.0/en/model_doc/gpt2#transformers.GPT2LMHeadModel) small model downloaded from Hugging Face. Focused on layers h.0.mlp, h.3.mlp, h.9.mlp, and h.9.attn, the project employs the [SNLI](https://nlp.stanford.edu/pubs/snli_paper.pdf) corpus to generate text. Hidden states from these layers are captured through Baukit probing, and linear classifiers are trained on them. The evaluation aims to assess the model's understanding of contradictions, neutral and entailments and how well the model learns at each layer, all executed in [Google Colab](https://colab.research.google.com/) for seamless collaboration and execution.
 
 ### How to Run Results and Evaluation
-
 Import the [Jupyter file](ProbingGPT/NLPProbingGPT.ipynb) into Google Colab and follow the provided instructions. All the results and evaluations are present in the same file.
 
 ## Postagging
@@ -32,8 +30,7 @@ Import the [Jupyter file](ProbingGPT/NLPProbingGPT.ipynb) into Google Colab and 
 ### Overview
 The Postagging sub-project explores part-of-speech tagging using Hidden Markov Models (HMM) with bigram and trigram implementations. The study covers three languages: English, Japanese, and Bulgarian. Additionally, the performance of Vanilla RNN, LSTM, and Bidirectional LSTM models is compared for part-of-speech tagging.
 
-### How to Run & Evaluation
-
+### How to Run and Evaluation
 1. For HMM with Viterbi Algo
 ```python
 python3 train_hmm.py data/ptb.2-21.tgs data/ptb.2-21.txt > my.hmm # for training
@@ -60,5 +57,4 @@ python3 SpellCorrect.py # for performance of all the language models
 ```
 
 ## Contributing
-
-If you would like to contribute or report issues, please mail to 
+If you would like to contribute or report issues, please mail to **Email:** mg6.dev@gmail.com
