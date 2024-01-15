@@ -41,7 +41,7 @@ python3 vrnn_lstm_bidlstm.py data/ptb.2-21.tgs data/ptb.2-21.txt data/ptb.22.tgs
 ```
 
 ### Postagging Results and Evaluation
-Detailed Evaluated results are provided in [results/README.md](Postagging/README.md) file.
+Detailed Evaluated results are provided in [POSTagging/README.md](POSTagging/README.md) file.
 
 ## Autocorrection
 
@@ -55,4 +55,4 @@ python3 SpellCorrect.py # for performance of all the language models
 ```
 
 ## Contributing
-If you would like to contribute or report issues, please mail to **Email:** mg6.dev@gmail.com
+If you would like to contribute or report issues, please **mail** to [Mrudhul Guda](mailto:mg6.dev@gmail.com?subject=[GitHub]%20Source%20NLP)
