@@ -1,4 +1,4 @@
-# NLP-ProbingGPT2/POS-Tagging/AutoCorrection
+# NLP-ProbingGPT-2/POS-Tagging/AutoCorrection
 
 This repository contains three sub-projects focused on Natural Language Processing (NLP): ProbingGPT, Postagging, and Autocorrection. Each sub-project addresses different aspects of NLP, utilizing various techniques and algorithms.
 
